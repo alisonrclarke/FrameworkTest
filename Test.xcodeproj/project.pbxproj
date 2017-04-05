@@ -10,6 +10,8 @@
 		9BC39BFD1E951C9200FA269F /* Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC39BF31E951C9200FA269F /* Test.framework */; };
 		9BC39C021E951C9200FA269F /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC39C011E951C9200FA269F /* TestTests.m */; };
 		9BC39C041E951C9200FA269F /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC39BF61E951C9200FA269F /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BC39C0F1E951ED600FA269F /* TestPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC39C0D1E951ED600FA269F /* TestPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BC39C101E951ED600FA269F /* TestPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC39C0E1E951ED600FA269F /* TestPrinter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		9BC39BFC1E951C9200FA269F /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC39C011E951C9200FA269F /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
 		9BC39C031E951C9200FA269F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC39C0D1E951ED600FA269F /* TestPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPrinter.h; sourceTree = "<group>"; };
+		9BC39C0E1E951ED600FA269F /* TestPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPrinter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				9BC39BF61E951C9200FA269F /* Test.h */,
+				9BC39C0D1E951ED600FA269F /* TestPrinter.h */,
+				9BC39C0E1E951ED600FA269F /* TestPrinter.m */,
 				9BC39BF71E951C9200FA269F /* Info.plist */,
 			);
 			path = Test;
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC39C041E951C9200FA269F /* Test.h in Headers */,
+				9BC39C0F1E951ED600FA269F /* TestPrinter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC39C101E951ED600FA269F /* TestPrinter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +402,7 @@
 				9BC39C091E951C9200FA269F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BC39C0A1E951C9200FA269F /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +411,7 @@
 				9BC39C0C1E951C9200FA269F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
