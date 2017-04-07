@@ -1,14 +1,10 @@
 language: objective-c
 
-branches:
- only:
- - master
-
 xcode_project: Test.xcodeproj
 xcode_scheme: Test
 osx_image: xcode8.3
 xcode_sdk: iphonesimulator10.1
 
 script:
-- xcodebuild test -project Test.xcodeproj -scheme Test -destination 'platform=iOS Simulator,name=iPad Air,OS=10.3'
-
+- ./run-unit-tests.sh 
+- if [[ "$TRAVIS_BRANCH" = "release" ]]; then ./build-framework.sh; fi
