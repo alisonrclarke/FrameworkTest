@@ -12,8 +12,6 @@ cd TestReleases
 
 git checkout master
 
-mkdir release
-
 cp -rf "$OUTPUTFOLDER"/* release/
 
 git commit -am 'New release.'

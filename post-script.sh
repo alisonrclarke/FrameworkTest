@@ -3,7 +3,7 @@
 set -e -u
 
 if [ -d "${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework" ] && [ -d "${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework" ]; then
-echo "TEST"
+
 # Get local directory path
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 OUTPUTFOLDER=${DIR}/output
