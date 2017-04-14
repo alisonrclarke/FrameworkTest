@@ -1,5 +1,5 @@
 #!/bin/sh
 
 # Step 1. Build Device and Simulator versions on iOS
-xcodebuild -project "Test.xcodeproj" -scheme "Test"  -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6' clean build
+xcodebuild -project "Test.xcodeproj" -scheme "Test"  -sdk iphonesimulator clean build
 
