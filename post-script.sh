@@ -9,7 +9,7 @@ OUTPUTFOLDER=${DIR}/output
 
 # make sure the output directory exists
 mkdir -p "$OUTPUTFOLDER"
-rm -r "$OUTPUTFOLDER"/*
+rm -rf "$OUTPUTFOLDER"/*
 
 # Step 1. Copy the framework structure (from iphoneos build) to the universal folder
 cp -R "${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework" "$OUTPUTFOLDER"
