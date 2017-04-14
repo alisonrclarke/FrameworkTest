@@ -1,2 +1,2 @@
-xcodebuild test -project Test.xcodeproj -scheme Test -destination 'platform=iOS Simulator,name=iPad Air,OS=10.3'
+xcodebuild test -project Test.xcodeproj -scheme TestDev -destination 'platform=iOS Simulator,name=iPad Air,OS=10.3'
 
