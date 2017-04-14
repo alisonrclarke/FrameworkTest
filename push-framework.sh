@@ -10,15 +10,13 @@ git clone https://${GH_TOKEN}@github.com/MrAPolk/TestReleases.git
 
 cd TestReleases
 
-git co master
+git checkout master
 
 mkdir release
 
 cp -rf "$OUTPUTFOLDER"/* release/
 
-git add .
-
-git ci -m 'New release.'
+git commit -am 'New release.'
 
 git push origin master
 
