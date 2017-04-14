@@ -8,7 +8,7 @@ xcode_sdk: iphonesimulator10.1
 script:
 - ./run-unit-tests.sh 
 - if [[ "$TRAVIS_BRANCH" = "release" ]]; then ./build-framework.sh; fi
-aftersuccess:
+after_success:
 - ./push-framework.sh
 env:
   global:
