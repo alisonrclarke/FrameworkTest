@@ -18,6 +18,8 @@ git commit -am 'New release.'
 
 git push origin master
 
+cd "$DIR"
+
 # Creates github release.
 ./create-release "1.0.3"
 
