@@ -21,6 +21,6 @@ git push origin master
 cd "$DIR"
 
 # Creates github release.
-./create-release "1.0.3"
+./create-release.sh "1.0.3"
 
 rm -rf TestReleases
