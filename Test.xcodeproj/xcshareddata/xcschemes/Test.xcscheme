@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9BC39BFB1E951C9200FA269F"
+               BlueprintIdentifier = "9BD3E5A51EA0DA03007B49CF"
                BuildableName = "TestTests.xctest"
                BlueprintName = "TestTests"
                ReferencedContainer = "container:Test.xcodeproj">
@@ -52,7 +52,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
