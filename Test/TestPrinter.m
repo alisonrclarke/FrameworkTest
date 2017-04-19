@@ -16,4 +16,8 @@
     return text;
 }
 
+-(NSString*)version {
+    return [NSString stringWithFormat:@"Version: %s", TEST_FRAMEWORK_VERSION];
+}
+
 @end

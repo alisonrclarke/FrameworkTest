@@ -12,4 +12,6 @@
 
 -(NSString *)text;
 
+-(NSString*)version;
+
 @end
