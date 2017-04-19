@@ -489,7 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Test.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				TEST_FRAMEWORK_VERSION = temp;
+				TEST_FRAMEWORK_VERSION = "\"Unversioned\"";
 			};
 			name = Debug;
 		};
@@ -509,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Test.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				TEST_FRAMEWORK_VERSION = temp;
+				TEST_FRAMEWORK_VERSION = "\"Unversioned\"";
 			};
 			name = Release;
 		};
@@ -527,7 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.TestDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_FRAMEWORK_VERSION = "''";
+				TEST_FRAMEWORK_VERSION = "\"Unversioned\"";
 			};
 			name = Debug;
 		};
@@ -541,7 +541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.TestDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_FRAMEWORK_VERSION = "''";
+				TEST_FRAMEWORK_VERSION = "\"Unversioned\"";
 			};
 			name = Release;
 		};
